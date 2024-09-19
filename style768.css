@@ -1,0 +1,207 @@
+@font-face {
+    font-family: 'TT Lakes';
+    src: url('New Folder/TTLakesCompressed-Italic.woff')  format("woff");
+    font-weight: normal;
+    font-style: italic;
+}
+
+body{
+  font-family: 'TT Lakes', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  margin: 0;
+  width: 768px;
+}
+a{cursor: pointer;
+  
+}
+button{
+  padding: 0;
+  cursor: pointer;
+}
+.background-menu{
+  background-color: #F8F8F8;
+  padding-bottom: 20px;
+}
+.hidde-midl-desctop{
+  visibility: hidden;
+    display: none;
+}
+.hidde-midl{
+  visibility: hidden;
+  display: none;
+}
+.back{
+  width: 320px;
+
+  background-color: #F8F8F8;
+}
+.head-name{
+  font: 16px;
+  text-transform: uppercase;
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 768px;
+  height: 45px;
+  color: #7E7E82;
+  background-color: #fff;
+} 
+.conteiner-berends{
+  width: 768px;
+  height: auto;
+  display: inline-block;
+
+  
+  background-color: #F8F8F8;
+}
+.shoy-brends{
+  width: 768px;
+  height: 200px;
+  display: flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+}
+.brends-item{
+  width: 224px;
+  height: 72px;
+  background-color: #fff;
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+  border: 1px #EAEAEA solid;
+  border-radius: 10px;
+}
+.hidde-brends{
+  width: 768px;
+  display: flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  /* Initially, hide the extra text that
+      can be revealed with the button */
+ 
+
+      /* Display nothing for the element */
+
+ 
+
+}
+#moreText {
+
+  /* Display nothing for the element */
+  display: none;
+}
+.b1{
+  width: 150px;
+  height: 30px;
+  display: flex;
+  justify-content: left;
+}
+.un-but{
+  width: 133px;
+  height: 24px;
+  font-family: 'TT Lakes', sans-serif;
+        font-weight: normal;
+        font-style: normal;
+        display: inline;
+  justify-content: center;
+
+}
+.text-but{ font-family: 'TT Lakes', sans-serif;
+  font-weight: 450;
+  font-style: normal;  
+  height: 24px;
+
+
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+
+}
+.more-but{  
+  width: 133px;
+  height: 24px;
+  display:inline;
+
+  justify-content:center;
+}
+.img-hide-but{
+ 
+  margin-bottom: auto;
+ margin-left: 10px;
+}
+.swiper-container{
+  padding-left: 15px;
+  width: 220px;
+  height: 250px;
+  
+}
+.swiper-slide{
+  width: 240px;
+  height: 72px;
+  margin-top: 15px;
+
+ 
+
+}
+.swiper-boreder{
+  width: 217px;
+  height: 70px; 
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  border: 1px #EAEAEA solid;
+  border-radius: 10px;
+}
+
+
+.slide-img{
+  display: flex;
+  justify-content: flex-start;
+  width: 180px;
+  height: auto;
+  margin-left: 10px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.slide-but{
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  float: right;
+  margin-right: 10px;
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  border: none;
+  background-color: #fff;
+  border-radius: 20px;
+
+  background-size: cover;
+}
+
+.swiper-pagination{
+  width: 320px;
+  height: 12px;
+float: top;
+  bottom: 0;
+  margin-bottom: auto;
+}
+.swiper-pagination-bullet{
+  width: 12px;
+  height: 12px;
+  line-height: 20px;
+  font-size: 14px;
+  background-color:#B5B6BC;
+  ;
+}
+
+
+
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+  bottom: var(--swiper-pagination-bottom, 0);
+  top: var(--swiper-pagination-top, 200px);
+  left: 0;
+  width: 320px;
+}

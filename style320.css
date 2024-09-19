@@ -1,0 +1,123 @@
+@font-face {
+    font-family: 'TT Lakes';
+    src: url('New Folder/TTLakesCompressed-Italic.woff')  format("woff");
+    font-weight: normal;
+    font-style: italic;
+}
+
+body{
+  font-family: 'TT Lakes', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  margin: 0;
+  width: 320px;
+
+
+  overflow-x: hidden;
+  --mask: linear-gradient(to right, 
+  rgba(0,0,0, 1) 0,   rgba(0,0,0, 1) 85%, 
+  rgba(0,0,0, 0) 95%, rgba(0,0,0, 0) 0
+) 100% 50% / 100% 100% repeat-x;
+
+
+-webkit-mask: var(--mask); 
+mask: var(--mask);
+}
+button{
+  cursor: pointer;
+}
+.hidde-mobile{
+  visibility: hidden;
+    display: none;
+}
+.back{
+  width: 320px;
+
+  background-color: #F8F8F8;
+}
+.head-name{
+  font: 16px;
+  text-transform: uppercase;
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 320px;
+  height: 80px;
+  color: #7E7E82;
+  background-color: #fff;
+}
+.swiper-container{
+  padding-left: 15px;
+  width: 220px;
+  height: 250px;
+  
+}
+.swiper-slide{
+  width: 240px;
+  height: 72px;
+  margin-top: 15px;
+
+ 
+
+}
+.swiper-boreder{
+  width: 217px;
+  height: 70px; 
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  border: 1px #EAEAEA solid;
+  border-radius: 10px;
+}
+
+
+.slide-img{
+  display: flex;
+  justify-content: flex-start;
+  width: 180px;
+  height: auto;
+  margin-left: 10px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.slide-but{
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  float: right;
+  margin-right: 10px;
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  border: none;
+  background-color: #fff;
+  border-radius: 20px;
+
+  background-size: cover;
+}
+
+.swiper-pagination{
+  width: 320px;
+  height: 12px;
+float: top;
+  bottom: 0;
+  margin-bottom: auto;
+}
+.swiper-pagination-bullet{
+  width: 12px;
+  height: 12px;
+  line-height: 20px;
+  font-size: 14px;
+  background-color:#B5B6BC;
+  ;
+}
+
+
+
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+  bottom: var(--swiper-pagination-bottom, 0);
+  top: var(--swiper-pagination-top, 200px);
+  left: 0;
+  width: 320px;
+}
