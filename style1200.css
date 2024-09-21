@@ -128,9 +128,20 @@ button{
   justify-content:center;
 }
 .img-hide-but{
- 
-  margin-bottom: auto;
+  width: 24px;
+  height: 24px; 
+   margin-bottom: auto;
+ margin-top: auto;
+
  margin-left: 10px;
+ background-size: cover;
+  
+ background: url(img/icon.svg);
+ background-position: center;
+ background-repeat: no-repeat;
+}
+.img-rotate{
+  transform: rotate(180deg);
 }
 .swiper-container{
   padding-left: 15px;
@@ -177,11 +188,15 @@ button{
   margin-left: auto;
   margin-top: auto;
   margin-bottom: auto;
-  border: none;
+  border: 2px #FF3E79 solid;
   background-color: #fff;
   border-radius: 20px;
 
   background-size: cover;
+  
+  background: url(img/dropdown.svg);
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .swiper-pagination{

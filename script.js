@@ -48,7 +48,7 @@ var swiper = new Swiper('.swiper-container', {
         // Show the dots after the text
         points.style.display = "flex";
 
-        buttonText.innerHTML = '<img class="img-hide-but" src="img/expand-douw.svg" id="imgButton"> <div class="text-but">Показать все</div>';
+        buttonText.innerHTML = '<div class="img-hide-but" ></div> <div class="text-but">Показать все</div> '
  
         // Change the text on button to 
         // 'Show More'
@@ -68,7 +68,7 @@ var swiper = new Swiper('.swiper-container', {
         // Hide the dots after the text
         points.style.display = "none";
         
-        buttonText.innerHTML = '<img class="img-hide-but" src="img/expand_up.svg" id="imgButton"> <div class="text-but">Скрыть</div>';
+        buttonText.innerHTML = '<div class="img-hide-but img-rotate" ></div>  <div class="text-but">Скрыть</div> ';
 
         // Change the text on button
         // to 'Show Less'
